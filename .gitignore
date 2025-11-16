@@ -1,0 +1,36 @@
+# ====================
+# ENVIRONMENT VARIABLES
+# ====================
+.env
+*.env
+
+# ====================
+# PYTHON
+# ====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ====================
+# VIRTUAL ENVIRONMENTS
+# ====================
+venv/
+env/
+
+# ====================
+# DATASETS (DON'T PUSH)
+# ====================
+*.csv
+*.json
+prepared/
+datasets/
+data/
+
+# ====================
+# OS / EDITOR FILES
+# ====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
